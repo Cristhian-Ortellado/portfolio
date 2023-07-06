@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'custom',
-    path: 'https://cristhian-ortellado.github.io/portfolio/public/',
+    loader: 'cloudinary',
+    path: '/',
   },
 }
 
