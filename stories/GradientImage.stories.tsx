@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, GradientImage } from "@components";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import aboutMeImage from "@assets/img/placeholders/about-me.jpg";
+import aboutMeImage from "@assets/img/placeholders/about-me-2.jpg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
