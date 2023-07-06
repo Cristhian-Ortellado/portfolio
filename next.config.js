@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'cloudinary',
+    unoptimized: true,
+    loader: 'imgix',
     path: '/',
   },
 }
