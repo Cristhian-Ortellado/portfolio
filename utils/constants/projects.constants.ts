@@ -1,37 +1,52 @@
-import spotifu from '@assets/img/placeholders/spotifu.jpeg';
-import blockMaster from '@assets/img/placeholders/block-master.png';
-import calculator from '@assets/img/placeholders/calculator.jpeg';
+import crud from '@assets/img/placeholders/crud.png';
+import laralearn from '@assets/img/placeholders/laralearn.png';
+import console_app from '@assets/img/placeholders/console.png';
+import twitter from '@assets/img/placeholders/twitter.jpeg';
 
 
 export const projects = [
     {
         number: "01",
-        title: "Block Master",
-        languages: ["Styled Components", "React", "Javascript"],
-        description: "A block buster website (like Netflix) where it fetches movies from tmdb(The movie DB) so the user can see and select one movie to see more details about that movie.",
-        cta: "https://github.com/mgueyraud/block-master/",
-        imageSource: blockMaster,
-        altImage: 'Screenshot of the Block Master Project',
-        ariaLabelLink: 'See the source code of the Block Master Project'
+        title: "Lara Learn",
+        languages: ["PHP", "Laravel", "Tailwind CSS","HTML","MYSQL"],
+        description: "Lara Learn is a blog project. It is a powerful and feature-rich application designed to provide a seamless and interactive blogging experience.",
+        cta: "https://github.com/Cristhian-Ortellado/laralearn",
+        imageSource: laralearn,
+        altImage: 'Screenshot of the Blog Project',
+        ariaLabelLink: 'See the source code of the Lara Learn blog Project'
     },
     {
         number: "02",
-        title: "Spotifu - Spotify Clone",
-        languages: ["JavaScript", "SASS", "React", "HTML"],
-        description: "A clone of the Spotify web page, where you can navigate into an album, and also hear music with my own library to play music in the DOM",
-        cta: "https://github.com/mgueyraud/Spotifu-SpotifyClone",
-        imageSource: spotifu,
-        altImage: 'Screenshot of the Spotifu Project',
-        ariaLabelLink: 'See the source code of the Spotifu Project'
+        title: "CRUD of Projects",
+        languages: ["PHP", "Laravel", "Bootstrap","HTML","MYSQL"],
+        description: `Functional web aplication that gives you the posibility to show
+        information about you and your projects...some kind of portfolio. 
+        This is a CRUD of projects with a system authentication in order to provide the ability
+        to create your own portfolio! 
+        `,
+        cta: "https://github.com/Cristhian-Ortellado/CRUD_projects/tree/main",
+        imageSource: crud,
+        altImage: 'Screenshot of the Project',
+        ariaLabelLink: 'See the source code of the CRUD  of Project'
     },
     {
         number: "03",
-        title: "Calculator App",
-        languages: ["Typescript", "React Native"],
-        description: "A mobile app (Clone of the calculator of iOS), where you can do calculations built with React Native and Typescript",
-        cta: "https://github.com/mgueyraud/calculator_iOS_RN",
-        imageSource: calculator,
-        altImage: 'Screenshot of the Calculator App Project',
-        ariaLabelLink: 'See the source code of the Calculator App Project'
+        title: "Tracking of tasks",
+        languages: ["Javascript", "Nodejs"],
+        description: "This is an app console in nodejs tha gives you the posibility to save all your pending task and then mark as completed or delete it. This app console have a beautiful user interface with colors and interactive things!",
+        cta: "https://github.com/Cristhian-Ortellado/tracking-of-tasks-app-console",
+        imageSource: console_app,
+        altImage: 'Screenshot of the App Console Project',
+        ariaLabelLink: 'See the source code of the App Console Project'
+    },
+    {
+        number: "04",
+        title: "Twitter Copy",
+        languages: ["Laravel", "PHP", "Tailwind CSS", "MYSQL","HTML","JS","BLADE"],
+        description: "This is a Laravel-based Twitter clone that replicates some of the basic functionalities of the popular social media platform Twitter. It allows users to create accounts, post tweets, follow other users, and view a timeline of tweets from the users they follow.",
+        cta: "https://github.com/Cristhian-Ortellado/twitter-copy/tree/main",
+        imageSource: twitter,
+        altImage: 'Screenshot of the Project',
+        ariaLabelLink: 'See the source code of the Project'
     },
 ];

@@ -1,44 +1,54 @@
 export const experiences = [
     {
-      title: "Frontend Engineer",
-      company: "Belk",
-      start: " Jun 2022",
-      end: "Now",
+      title: "API Developer",
+      company: "Sportninja Inc.",
+      start: "Dec 2022",
+      end: "May 2023",
       description:
-        "Maintenance and development of their e-commerce",
+        `I worked on a complex system that managed hockey match statistics and contained a vast amount of data. <br/>
+        Given the importance of real-time data processing, I placed a strong focus on optimizing system performance and reducing response times.<br/>
+        I made significant contributions to the API, which improved the efficiency of the site and the user experience. <br/>
+        I also led the process of refactoring obsolete code, resulting in greater system stability and faster response times. Additionally, I identified and resolved numerous errors and bugs, which allowed for a smoother and uninterrupted experience for end-users.<br/> 
+        I also collaborated closely with front-end developers to design and implement new features.<br/>
+        In this project I worked with PHP, LARAVEL, MYSQL and DOCKER`,
     },
     {
-      title: "React Developer",
-      company: "Tonic3",
-      start: "July 2021",
-      end: "Jun 2022",
+      title: "Full Stack Developer",
+      company: "Kwac Media Services",
+      start: "Apr 2021",
+      end: "Dec 2022",
       description:
-        `Development of a product for <a href="https://www.averydennison.com/en/home.html" target="_blank">Avery Dennison</a>, where they provide some services to their clients, using ReactJS, Typescript, Material UI.<br><br>
-  
-        Maintenance of the component library.<br><br>
-        
-        Lead the frontend team, estimated and assigned tasks to other developers.<br><br>`,
+        `
+        Development of Notifications in real time with web- sockets.<br/>
+        Development of reusable UI components with HTML,CSS,JS VANILLA, JQUERY and Blade.<br/>
+        Creation of plugins with JS VANILLA.<br/>
+        Tracking of events like emails, SMS, users actions into the system, etc.<br/>
+        Creations of dynamic pdf to print important reports. <br/>
+        Repository pattern design implemented.<br/>
+        In this project I worked with PHP, Laravel, MYSQL, javascript, HTML, CSS, Bootstrap, Blade.
+        `,
     },
     {
-      title: "Frontend and UI Developer",
-      company: "Teixidó",
-      start: "March 2020",
-      end: "July 2021",
-      description: `Maintenance and development of CSS Architecture (Sass, Itcss, BEM) of different products.<br><br>
-  
-      Optimization of different web pages for faster loading experiences.<br><br>
-      
-      UI development of different products such as Newsletters, Insurance and Economist web pages.<br><br>
-      
-      Experience on API implementations with Laravel and Codeigniter.`,
+      title: "Back End Developer",
+      company: "Web Paraguay",
+      start: "Jan 2021",
+      end: "Mar 2021",
+      description: `
+      Development of a content manager for a default web page that comes when acquiring the company's hosting service using Laravel.<br/>
+      Creation of tutorial videos that show how to use the content manager to customize the web page that comes by default with the web hosting.<br/>
+      E2E Testing using Cypress.`,
     },
     {
-      title: "Internship",
-      company: "Teixidó",
-      start: "December 2017",
-      end: "February 2018",
-      description: `Learned the fundamentals of web development.<br><br>
-  
-    Implementation of a CRUD for a Bank web Page.`,
+      title: "Web Developer",
+      company: "G-Digital",
+      start: "Aug 2020",
+      end: "Dec 2020",
+      description: `
+      Creation, development and maintenance of web pages built in wordpress or php.<br/>
+      Design created using Photoshop.<br/>
+      Migration of old PHP websites to wordpress.<br/>
+      Installation of web pages with Cpanel.<br/>
+      I used tools like putty, Figma, etc.
+      `,
     },
   ];

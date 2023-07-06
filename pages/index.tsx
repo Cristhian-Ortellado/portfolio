@@ -11,7 +11,7 @@ import {
 import styles from "@styles/pages/Home.module.css";
 import Head from "next/head";
 import Image from "next/image";
-import aboutMeImage from "@assets/img/placeholders/about-me.jpg";
+import aboutMeImage from "@assets/img/placeholders/about-me-2.jpg";
 import ovalDegrade from "@assets/img/placeholders/oval_degrade.png";
 import ovalDegradeBottom from "@assets/img/placeholders/oval_degrade_bottom.png";
 import { experiences } from "utils/constants/experiences.constants";
@@ -21,10 +21,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Mario Gueyraud | Frontend Developer</title>
+        <title>Cristhian Ortellado | Back End Developer</title>
         <meta
           property="description"
-          content="Mario Gueyraud is a software engineer who specializes in building deligthful user experiences with high-quality code"
+          content="Cristhian Ortellado is a software engineer specializing in transforming business logic into robust automated systems."
         />
         <meta
           name="image"
@@ -32,12 +32,12 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:title"
-          content="Mario Gueyraud | Frontend Developer"
+          content="Cristhian Ortellado | Back End Developer"
           key="title"
         />
         <meta
           property="og:description"
-          content="Mario Gueyraud is a software engineer who specializes in building deligthful user experiences with high-quality code"
+          content="Cristhian Ortellado is a software engineer specializing in transforming business logic into robust automated systems."
         />
         <meta
           name="og:image"
@@ -61,15 +61,14 @@ const Home: NextPage = () => {
             Hi my name is,
           </p>
           <h1 className={styles.bigTitle}>
-            Mario Gueyraud <br />
-            I&#39;m a <span className={styles.gradientText}>Frontend</span>{" "}
+            Cristhian Orellado <br />
+            I&#39;m a <span className={styles.gradientText}>Backend</span>{" "}
             Engineer.
           </h1>
           <p className={styles.description}>
-            I&#39;m a software engineer based on Paraguay. I love everything
-            related to frontend such as css, javascript, a11y and also
-            performance. I am focused on building deligthful user experiences
-            with high-quality code.
+            I&#39;m a software engineer based on Paraguay.  I love 
+            everything related to backend development such as query performance, real-time processing, database architecture, handling business logic, 
+            security and more. I am focused on creating robust, scalable, and high-performance systems with high-quality code.
           </p>
         </Container>
       </section>
@@ -88,58 +87,55 @@ const Home: NextPage = () => {
                 <Title>About me</Title>
               </div>
               <p>
-                Hello! My name is Mario and I enjoy creating things with code. I
-                started coding at 13, my interest started because I wanted to
-                know how mobile applications were built.
+                Hello! My name is Cristhian and I love creating new things from my mind with code.
+                I started programming at the age of 15, my interest started because at that time I used to play video games and I wanted to know how they were built.
                 <br />
                 <br /> Until today I&#39;ve had the privilege to work at such
-                amazing companies and products.
+                amazing companies and teams.
                 <br />
                 <br /> I&#39;ve worked with different products such as &nbsp;
                 <b>
                   <a
-                    href="https://www.5dias.com.py/"
+                    href="https://kwac.media/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Newsletters
+                    Web Services
                   </a>
                   ,{" "}
                   <a
-                    href="https://www.consolidada.com.py/"
+                    href="https://www.sportninja.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Insurance Companies
+                    League management Platform
                   </a>
                   ,{" "}
                   <a
-                    href="https://www.visionbanco.com/"
+                    href="https://www.gdigital.com.py/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Banks
+                    Digital transformation of companies
                   </a>
                 </b>{" "}
-                and also CMS web pages. Coding with SASS, CSS, Javascript, HTML.
+                and also CMS web pages. Coding with WORDPRESS, CSS, HTML, JS, PHP, LARAVEL, MYSQL.
                 <br />
-                <br /> Nowadays, my main languages are typescript, javascript,
-                css and html, looking forward to expand my knowledge in the
-                backend, mobile and blockchain development.
+                <br /> Nowadays, my main technologies are php, laravel, mysql, javascript, blade, html and bootstrap, looking forward to expand my knowledge in 
+                devops, cloud and data science.
               </p>
             </div>
             <div>
               <GradientImage src={aboutMeImage} alt="About Me Image" />
             </div>
           </div>
-          <SocialIcon type="twitter" href="https://twitter.com/mariogyd" />
-          &nbsp;&nbsp;&nbsp;
+          
           <SocialIcon
             type="linkedin"
-            href="https://www.linkedin.com/in/mariogyd/"
+            href="https://www.linkedin.com/in/cristhian-daniel-ortellado-fernandez-76540a199/"
           />
           &nbsp;&nbsp;&nbsp;
-          <SocialIcon type="github" href="https://github.com/mgueyraud" />
+          <SocialIcon type="github" href="https://github.com/Cristhian-Ortellado" />
         </Container>
       </section>
       <section
@@ -185,7 +181,7 @@ const Home: NextPage = () => {
             I&#39;m always open to new opportunities. If you have any question
             or doubt, feel free to drop an email, I&#39;ll get back to you soon!
           </p>
-          <Button href="mailto:mgueyraud.junior@gmail.com">Say Hello</Button>
+          <Button href="mailto:cortelladofernandez@gmail.com">Say Hello</Button>
         </Container>
         <div className="u-hide-sm">
           <div className={styles.section_contact_bg_img}>
