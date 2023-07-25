@@ -2,6 +2,7 @@ import crud from '@assets/img/placeholders/crud.png';
 import laralearn from '@assets/img/placeholders/laralearn.png';
 import console_app from '@assets/img/placeholders/console.png';
 import twitter from '@assets/img/placeholders/twitter.jpeg';
+import tailwind from '@assets/img/placeholders/tailwind.png';
 
 
 export const projects = [
@@ -41,6 +42,16 @@ export const projects = [
     },
     {
         number: "04",
+        title: "Tailwind Css Blog",
+        languages: ["JAVASCRIPT", "CSS", "VITE JS", "TAILWIND CSS","HTML"],
+        description: "This is a blog built with Tailwind CSS. This blog support Dark mode, Light mode and default system mode for web and mobile. If you change your theme in your computer the website will change the default theme automatically.",
+        cta: "https://tailwindcss-blog-ochre.vercel.app/",
+        imageSource: tailwind,
+        altImage: 'Screenshot of the Project',
+        ariaLabelLink: 'See the live project'
+    },
+    {
+        number: "05",
         title: "Twitter Copy",
         languages: ["Laravel", "PHP", "Tailwind CSS", "MYSQL","HTML","JS","BLADE"],
         description: "This is a Laravel-based Twitter clone that replicates some of the basic functionalities of the popular social media platform Twitter. It allows users to create accounts, post tweets, follow other users, and view a timeline of tweets from the users they follow.",
