@@ -78,14 +78,10 @@ const Header = () => {
                   <span>03.</span>Work
                 </a>
               </li>
-              <li>
-                <a href="#articles" onClick={handleClickAnchor}>
-                  <span>04.</span>Articles
-                </a>
-              </li>
+
               <li>
                 <a href="#contact" onClick={handleClickAnchor}>
-                  <span>05.</span>Contact
+                  <span>04.</span>Contact
                 </a>
               </li>
             </ol>
