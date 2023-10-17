@@ -17,7 +17,6 @@ export const projects = [
     altImage: "Screenshot of the Spotify Project",
     ariaLabelLink: "See the deployed spotify project",
   },
-  ,
   {
     number: "02",
     title: "Lara Learn",
