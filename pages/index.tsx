@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="image"
-          content="https://mariogyd.com/assets/img/placeholders/dope-website.png"
+          content="https://portfolio-kyvv-cristhian-ortellado.vercel.app/assets/img/placeholders/dope-website.png"
         />
         <meta
           property="og:title"
@@ -41,9 +41,12 @@ const Home: NextPage = () => {
         />
         <meta
           name="og:image"
-          content="https://mariogyd.com/assets/img/placeholders/dope-website.png"
+          content="https://portfolio-kyvv-cristhian-ortellado.vercel.app/assets/img/placeholders/dope-website.png"
         />
-        <meta name="og:url" content="https://mariogyd.com/" />
+        <meta
+          name="og:url"
+          content="https://portfolio-kyvv-cristhian-ortellado.vercel.app/"
+        />
         <meta name="og:type" content="website" />
       </Head>
       <section
@@ -66,9 +69,11 @@ const Home: NextPage = () => {
             Engineer.
           </h1>
           <p className={styles.description}>
-            I&#39;m a software engineer based on Paraguay.  I love 
-            everything related to backend development such as query performance, real-time processing, database architecture, handling business logic, 
-            security and more. I am focused on creating robust, scalable, and high-performance systems with high-quality code.
+            I&#39;m a software engineer based on Paraguay. I love everything
+            related to backend development such as query performance, real-time
+            processing, database architecture, handling business logic, security
+            and more. I am focused on creating robust, scalable, and
+            high-performance systems with high-quality code.
           </p>
         </Container>
       </section>
@@ -87,8 +92,10 @@ const Home: NextPage = () => {
                 <Title>About me</Title>
               </div>
               <p>
-                Hello! My name is Cristhian and I love creating new things from my mind with code.
-                I started programming at the age of 15, my interest started because at that time I used to play video games and I wanted to know how they were built.
+                Hello! My name is Cristhian and I love creating new things from
+                my mind with code. I started programming at the age of 15, my
+                interest started because at that time I used to play video games
+                and I wanted to know how they were built.
                 <br />
                 <br /> Until today I&#39;ve had the privilege to work at such
                 amazing companies and teams.
@@ -119,23 +126,27 @@ const Home: NextPage = () => {
                     Digital transformation of companies
                   </a>
                 </b>{" "}
-                and also CMS web pages. Coding with WORDPRESS, CSS, HTML, JS, PHP, LARAVEL, MYSQL.
+                and also CMS web pages. Coding with WORDPRESS, CSS, HTML, JS,
+                PHP, LARAVEL, MYSQL.
                 <br />
-                <br /> Nowadays, my main technologies are php, laravel, mysql, javascript, blade, html and bootstrap, looking forward to expand my knowledge in 
-                devops, cloud and data science.
+                <br /> Nowadays, my main technologies are php, laravel, mysql,
+                javascript, blade, html and bootstrap, looking forward to expand
+                my knowledge in devops, cloud and data science.
               </p>
             </div>
             <div>
               <GradientImage src={aboutMeImage} alt="About Me Image" />
             </div>
           </div>
-          
           <SocialIcon
             type="linkedin"
             href="https://www.linkedin.com/in/cristhian-daniel-ortellado-fernandez-76540a199/"
           />
           &nbsp;&nbsp;&nbsp;
-          <SocialIcon type="github" href="https://github.com/Cristhian-Ortellado" />
+          <SocialIcon
+            type="github"
+            href="https://github.com/Cristhian-Ortellado"
+          />
         </Container>
       </section>
       <section
